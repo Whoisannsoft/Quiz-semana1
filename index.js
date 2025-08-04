@@ -25,11 +25,6 @@ function empezarJuego() {
   actualizarPantalla();
 }
 
-function actualizarPantalla() {
-  wordDisplay.textContent = letrasMostradas.join(" ");
-  tries.textContent = intentos + "/6";
-  mistakes.textContent = errores.join(", ");
-}
 
 function revisarLetra() {
   let letra = input.value;
