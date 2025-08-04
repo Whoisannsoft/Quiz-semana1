@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Encuentra la Palabra Oculta</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <p>find the</p>
+  <h1>Hidden word</h1>
+  
+
+  <div id="game-container">
+    <div id="word-display">_ _ _ _ _</div>
+    <p>tries: <span id="tries">0/6</span> mistakes: <span id="mistakes"></span></p>
+    <input type="text" id="letter-input" maxlength="1" autofocus />
+    <button id="random-btn">Random</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
+
+
